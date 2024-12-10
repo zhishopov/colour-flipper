@@ -1,3 +1,23 @@
+const buttons = document.querySelectorAll("button");
+const body = document.body;
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (button.id === "random") {
+      const red = Math.round(Math.random() * 255);
+      const green = Math.round(Math.random() * 255);
+      const blue = Math.round(Math.random() * 255);
+
+      const colour = `rgb(${red}, ${green}, ${blue})`;
+      body.style.backgroundColor = colour;
+    } else {
+      body.style.backgroundColor = button.id;
+    }
+  });
+});
+
+/* 
+            First version
 const redButton = document.getElementById("red");
 const blueButton = document.getElementById("blue");
 const greenButton = document.getElementById("green");
@@ -28,4 +48,4 @@ function changeRandom() {
 
   const colour = `rgb(${red}, ${green}, ${blue})`;
   body.style.backgroundColor = colour;
-}
+} */

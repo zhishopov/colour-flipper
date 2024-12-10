@@ -1,7 +1,7 @@
 # MAIN FUNCTIONALITY:
 
-- Change the background colour of the screen when a button with the same colour is clicked
-  - BONUS: Button for Random Colour
+- Change the background colour of the screen when a button with the same colour is clicked [X]
+  - BONUS: Button for Random Colour [X]
 
 # STEPS:
 
@@ -13,5 +13,5 @@
 
 - JavaScript:
 
-* Select the button
-* Change the background colour
+* Select the button [X]
+* Change the background colour [X]
