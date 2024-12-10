@@ -1,6 +1,7 @@
 # MAIN FUNCTIONALITY:
 
 - Change the background colour of the screen when a button with the same colour is clicked
+  - BONUS: Button for Random Colour
 
 # STEPS:
 
