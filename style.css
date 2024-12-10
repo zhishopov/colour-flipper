@@ -16,3 +16,18 @@ button {
   height: 40px;
   margin: 5px;
 }
+
+.container {
+  background-color: purple;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colour {
+  margin: 50px;
+  padding: 10px;
+  font-size: 20px;
+  flex-grow: 1;
+}
